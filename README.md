@@ -5,3 +5,7 @@ Real-time performance monitoring of multiple shared VMware datastores using Powe
 PS> .\Datastore_Stats.ps1 -vcenter [vcenter IP]
 
 # Sample screenshot of output
+![image](https://user-images.githubusercontent.com/30316226/49784524-37dff500-fce3-11e8-970f-373ded62dc35.png)
+
+# Notes
+"datastore_list.txt" should contain the list of datastore names and "esxi_list.txt" should contain the list of ESXi server names that needs to be monitored. And "datastore_list.txt" and "esxi_list.txt" files should be present in the same directory where this PS script is saved. In this case vol01, vol02 and vol03 are the 3 VMFS datastores shared across 3 ESXi nodes 192.168.105.10/11/12.
